@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SafePay AI | Financial Safety Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION BAR -->
+
+<header class="navbar">
+
+    <a class="logo" href="#home">
+        <span class="logo-mark">₹</span>
+
+        <span>
+            AI Financial<br>
+            <b>Safety Assistant</b>
+        </span>
+    </a>
+
+    <button class="menu" id="menu">☰</button>
+
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#scanner">Scan Message</a>
+        <a href="#url">Check URL</a>
+        <a href="#assistant">AI Assistant</a>
+        <a href="#learn">Fraud Awareness</a>
+    </nav>
+
+    <a class="login" href="#scanner">Start checking</a>
+
+</header>
+
+
+<main>
+
+<!-- HERO SECTION -->
+
+<section class="hero wrap" id="home">
+
+    <div class="hero-text">
+
+        <span class="tag">🛡 THINK BEFORE YOU PAY</span>
+
+        <h1>
+            Your <em>AI Shield</em><br>
+            Against Financial Fraud
+        </h1>
+
+        <p>
+            Detect suspicious messages, review risky links
+            and learn safer ways to make digital payments.
+        </p>
+
+        <div class="actions">
+
+            <a class="primary" href="#scanner">
+                🛡 Start Scanning →
+            </a>
+
+            <a class="secondary" href="#learn">
+                Explore safety tips
+            </a>
+
+        </div>
+
+        <div class="trust">
+            🔒 A simple digital-safety companion for everyone.
+        </div>
+
+    </div>
+
+
+    <div class="hero-art">
+
+        <div class="glow"></div>
+
+        <div class="shield">
+            ₹
+            <small>SAFE</small>
+        </div>
+
+        <div class="phone">
+
+            <div class="phone-top"></div>
+
+            <div class="alert">!</div>
+
+            <b>SCAM ALERT</b>
+
+            <span>Pause before you pay</span>
+
+        </div>
+
+        <div class="float f1">
+            ✉ Suspicious message
+        </div>
+
+        <div class="float f2">
+            ✓ Verify first
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURES SECTION -->
+
+<section class="features wrap">
+
+    <article>
+        <i class="blue">✉</i>
+        <h3>Scam Message Detector</h3>
+        <p>Review suspicious SMS and WhatsApp messages.</p>
+    </article>
+
+    <article>
+        <i class="green">↗</i>
+        <h3>Fake Link Detector</h3>
+        <p>Check URLs for common warning signs.</p>
+    </article>
+
+    <article>
+        <i class="purple">₹</i>
+        <h3>UPI Fraud Awareness</h3>
+        <p>Learn to recognise risky payment requests.</p>
+    </article>
+
+    <article>
+        <i class="orange">☎</i>
+        <h3>Scam Call Awareness</h3>
+        <p>Understand common phone scam tactics.</p>
+    </article>
+
+    <article>
+        <i class="mint">✦</i>
+        <h3>AI Safety Assistant</h3>
+        <p>Get simple, practical safety guidance.</p>
+    </article>
+
+    <article>
+        <i class="pink">文</i>
+        <h3>Hindi + English</h3>
+        <p>Learn safety tips in your preferred language.</p>
+    </article>
+
+</section>
+
+
+<!-- MESSAGE SCANNER -->
+
+<section class="wrap tools" id="scanner">
+
+    <div class="toolbox">
+
+        <div class="eyebrow">TRY OUR TOOLS</div>
+<h2>Scan a suspicious message</h2>
+
+<p class="sub">
+    Paste a message to check for common scam warning signs.
+</p>
+
+<label class="lang-row">
+    Reply language:
+    <select id="lang">
+        <option value="en">English</option>
+        <option value="hi">हिंदी</option>
+        <option value="hinglish">Hinglish</option>
+    </select>
+</label>
+
+<textarea
+    id="message"
+    placeholder="Paste the suspicious message here...
+e.g. You won ₹50,000! Click this link and share your OTP."
+></textarea>
+
+        <div class="row">
+
+            <button class="primary" id="scan">
+                🛡 Scan for Fraud
+            </button>
+
+            <button class="ghost" id="sample">
+                Try sample
+            </button>
+
+            <button class="ghost" id="clear">
+                Clear
+            </button>
+
+        </div>
+
+        <p class="disclaimer">
+            Demo only: do not enter real OTPs, passwords,
+            UPI PINs or bank details.
+        </p>
+
+    </div>
+
+
+    <div class="result" id="result">
+
+        <div class="result-icon">✓</div>
+
+        <h2>Your safety report appears here</h2>
+
+        <p>
+            Scan a message to see its risk indicator,
+            warning signs and suggested next steps.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- URL CHECKER -->
+
+<section class="wrap urlbox" id="url">
+
+    <div class="eyebrow">LINK CHECKER</div>
+
+    <h2>Check before you click.</h2>
+
+    <p class="sub">
+        Enter a URL to review common suspicious patterns.
+    </p>
+
+    <div class="urlrow">
+
+        <input
+            id="urlInput"
+            placeholder="Paste a website link (example.com)"
+        >
+
+        <button class="primary" id="checkUrl">
+            Check URL →
+        </button>
+
+    </div>
+
+    <div id="urlResult" class="urlresult">
+        ⓘ Your basic link review will appear here.
+    </div>
+
+    <p class="disclaimer">
+        This is not a live malware or reputation scan
+        and cannot certify a website as safe.
+    </p>
+
+</section>
+
+
+<!-- AI ASSISTANT -->
+
+
+
+
+<!-- FRAUD AWARENESS -->
+
+<section class="wrap assistant" id="assistant">
+
+    <div class="assistant-art">
+        ✦
+        <span>AI</span>
+    </div>
+
+    <div>
+
+        <div class="eyebrow">SAFETY GUIDE</div>
+
+        <h2>Questions about digital payments?</h2>
+
+        <p class="sub">
+            Choose a question or type your own to get a quick safety answer.
+        </p>
+
+        <div class="questions">
+            <button data-q="pin">
+                Do I need a UPI PIN to receive money?
+            </button>
+
+            <button data-q="otp">
+                What if I shared an OTP?
+            </button>
+
+            <button data-q="bank">
+                How do I verify bank customer care?
+            </button>
+        </div>
+
+        <div class="ask-row">
+            <input id="askInput" maxlength="300" placeholder="Apna sawal likho, e.g. Fake UPI request kaise pehchane?">
+            <button class="primary" id="askBtn">Ask AI →</button>
+        </div>
+
+        <div id="answer" class="answer">
+            Choose a question above to see guidance.
+        </div>
+
+    </div>
+
+</section>
+
+<!-- EMERGENCY SECTION -->
+
+<section class="emergency wrap">
+
+    <div class="warning">!</div>
+
+    <div>
+
+        <span class="eyebrow">SUSPECT FINANCIAL FRAUD?</span>
+
+        <h2>Act quickly. Report it.</h2>
+
+        <p>
+            In India, call <b>1930</b> as soon as possible
+            for cyber financial fraud and report it on
+            the official portal.
+        </p>
+
+    </div>
+
+    <a
+        class="primary"
+        href="https://cybercrime.gov.in/"
+        target="_blank"
+        rel="noopener"
+    >
+        Official cybercrime portal ↗
+    </a>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer style="display: block !important; width: 100% !important; text-align: center !important;">
+
+    <!-- TOP ROW: Creators & Info -->
+    <div style="width: 100% !important; padding-bottom: 20px !important; border-bottom: 1px solid #1a2f52 !important; margin-bottom: 25px !important; display: block !important;">
+        <p style="font-size: 16px !important; font-weight: 500 !important; color: #f4f7ff !important; margin: 0 0 8px 0 !important; letter-spacing: 0.5px !important; font-family: 'Space Grotesk', sans-serif !important;">
+            Designed & Engineered with Precision by <span style="color: #36d9f5 !important; font-weight: 700 !important;">Sweta & Pritam </span>
+        </p>
+        <p style="font-size: 13px !important; color: #a8b8d3 !important; max-width: 700px !important; margin: 0 auto !important; line-height: 1.6 !important; font-family: 'DM Sans', sans-serif !important;">
+            An advanced AI-powered initiative dedicated to secure digital transactions, offering real-time fraud assessment and spreading robust cyber safety awareness across India.
+        </p>
+    </div>
+
+    <!-- BOTTOM ROW: Logo, Tagline, Disclaimer (Ab Yeh Automatic Niche Aa Jayega) -->
+    <div style="display: flex !important; justify-content: space-between !important; align-items: center !important; width: 100% !important; gap: 20px !important; text-align: left !important;">
+        
+        <!-- Left Side Logo -->
+        <a class="logo" href="#home" style="display: flex !important; align-items: center !important; gap: 10px !important;">
+            <span class="logo-mark">₹</span>
+            <span>AI Financial<br><b>Safety Assistant</b></span>
+        </a>
+        
+        <!-- Center Tagline -->
+        <p style="font-size: 12px !important; color: #d7e5fa !important; margin: 0 !important; font-weight: 500 !important; text-align: center !important;">
+            Stay Alert. Stay Safe. Build a Fraud-Free India 🇮🇳
+        </p>
+        
+        <!-- Right Side Disclaimer -->
+        <small style="font-size: 9px !important; color: #8195b4 !important; text-align: right !important; margin: 0 !important;">
+            Educational prototype • Not an official bank or fraud-detection service
+        </small>
+        
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
