@@ -1,5 +1,5 @@
 const $ = id => document.getElementById(id);
-
+const API_BASE = 'https://ai-financial-safety-assistant.onrender.com';
 const message = $('message');
 const result = $('result');
 
